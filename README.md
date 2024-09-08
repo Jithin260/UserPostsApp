@@ -18,13 +18,13 @@ This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Na
 
 ## Project Structure
 
+├── assets/                      # Static assets like images, fonts, etc.
+│   └── images/
 ├── components/                  # Reusable UI components
 │   ├── HeaderComponent.tsx      # Header component for screens
 │   ├── Loader.tsx               # Loader component for showing loading states
 │   ├── EmptyComponent.tsx       # Component to show when list is empty
-│   └── UserCard.tsx             # Component to render individual user
-|   └── PostCard.tsx             # Component to render individual post
-|
+│   └── PostCard.tsx             # Component to render individual post
 ├── constants/                   # Application constants
 │   ├── colors/                  # Theme colors
 │   │   └── colors.ts            # Color definitions
@@ -68,14 +68,17 @@ This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Na
    git clone https://github.com/Jithin260/UsersPostsApp.git
    cd UsersPostsApp
 2. Install dependencies
+   ```bash
    npm install
 3. Install Expo CLI (if not already installed)
+   ```bash
    npm install -g expo-cli
 4. Start the development server
+   ```bash
    npx expo start
 5. Running the app
-   For iOS: Press i to run the app on an iOS simulator.
-   For Android: Press a to run the app on an Android emulator.
+   - **For iOS**: Press 'i' to run the app on an iOS simulator.
+   - **For Android**: Press 'a' to run the app on an Android emulator.
 
 ## API Integration
 

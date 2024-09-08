@@ -18,13 +18,13 @@ This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Na
 
 ## Project Structure
 
-├── assets/                      # Static assets like images, fonts, etc.
-│   └── images/
 ├── components/                  # Reusable UI components
 │   ├── HeaderComponent.tsx      # Header component for screens
 │   ├── Loader.tsx               # Loader component for showing loading states
 │   ├── EmptyComponent.tsx       # Component to show when list is empty
-│   └── PostCard.tsx             # Component to render individual post
+│   └── UserCard.tsx             # Component to render individual user
+|   └── PostCard.tsx             # Component to render individual post
+|
 ├── constants/                   # Application constants
 │   ├── colors/                  # Theme colors
 │   │   └── colors.ts            # Color definitions

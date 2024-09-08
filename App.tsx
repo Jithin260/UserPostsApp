@@ -1,20 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import UserListScreen from './src/screens/UserListScreen';
+import PostsListScreen from './src/screens/PostsListScreen';
+import Container from './src/navigation/Container';
+import { LogBox } from 'react-native';
+import { Provider } from 'react-redux';
+import store from './src/store/store';
 
-export default function App() {
+type RootStackParamList = {
+  UserList: undefined;
+  PostsList: undefined;
+};
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+const App: React.FC = () => {
+
+  useEffect(() => {
+    LogBox.ignoreAllLogs();
+  }, [])
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your appmmm!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <Container />
+    </Provider>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

@@ -123,4 +123,9 @@ The project uses Redux and Redux-Saga for state management. Below are the detail
   - **User Saga**: Handles side effects related to user data fetching.
   - **Post Saga**: Handles side effects related to post data fetching.
 
+## APK
+
+You can find the APK in the apk/ folder.
+
+
 

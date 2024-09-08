@@ -125,7 +125,7 @@ The project uses Redux and Redux-Saga for state management. Below are the detail
 
 ## APK
 
-You can find the APK in the apk/ folder.
+You can find the APK in the `apk/` folder.
 
 
 

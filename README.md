@@ -77,8 +77,8 @@ This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Na
    ```bash
    npx expo start
 5. Running the app
-   - **For iOS**: Press 'i' to run the app on an iOS simulator.
-   - **For Android**: Press 'a' to run the app on an Android emulator.
+   - **For iOS**: Press `i` to run the app on an iOS simulator.
+   - **For Android**: Press `a` to run the app on an Android emulator.
 
 ## API Integration
 

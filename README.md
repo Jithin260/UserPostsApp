@@ -1,4 +1,4 @@
-# React Native App
+# UsersPostsApp
 
 This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Navigation**, **TypeScript**, and **Ignite CLI**. The app fetches data from the [DummyJson API](https://dummyjson.com/) to display a list of users and posts in a clean and responsive UI. It also implements features like infinite scrolling, loading indicators, and clean state management with Redux and Saga.
 
@@ -65,8 +65,8 @@ This is a React Native app built using **Expo**, **Redux**, **Saga**, **React Na
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/react-native-app.git
-   cd your-repo-name
+   git clone https://github.com/Jithin260/UsersPostsApp.git
+   cd UsersPostsApp
 2. Install dependencies
    npm install
 3. Install Expo CLI (if not already installed)
